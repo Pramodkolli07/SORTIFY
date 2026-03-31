@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="How Sortify works: you contact us, we assess, we clean/sort/organize, and you enjoy a fresh, peaceful space." />
+    <title>How It Works - Sortify</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script defer src="assets/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header>
+      <div class="container">
+        <div class="nav">
+          <a class="brand" href="index.html" aria-label="Sortify home">
+            <div class="brand-logo">
+              <img src="assets/logo-transparent.png" alt="Sortify logo" />
+            </div>
+            <div>
+              <div class="brand-title">Sortify</div>
+              <div class="brand-tagline">You make the mess, we do the rest.</div>
+            </div>
+          </a>
+          <nav class="nav-links" aria-label="Primary navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="how-it-works.html" aria-current="page">How it works</a>
+            <a href="contact.html">Contact</a>
+            <a class="btn btn-primary" href="contact.html#form" data-cta="book">Book a Cleanup</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="page">
+      <main id="main">
+        <section class="hero" style="padding-bottom:18px;">
+          <div class="container">
+            <div class="split">
+              <div>
+                <div class="eyebrow reveal" data-reveal>Our process</div>
+                <h1 class="reveal" data-reveal style="margin-top:14px;">Simple steps. Real transformation.</h1>
+                <p class="reveal" data-reveal>
+                  You shouldn’t have to figure everything out alone. We handle the sorting, cleaning, and organizing so your space can feel calm again.
+                </p>
+                <div class="hero-actions reveal" data-reveal>
+                  <a class="btn btn-primary" href="contact.html#form">Book a Cleanup</a>
+                  <a class="btn btn-ghost" href="services.html">See Services</a>
+                </div>
+              </div>
+              <div class="hero-card reveal" data-reveal>
+                <div class="hero-visual">
+                  <video
+                    class="hero-video"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    poster="assets/logo-transparent.png"
+                    aria-label="Cleanup transformation video"
+                  >
+                    <source src="assets/cleanup.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section panel-light">
+          <div class="container">
+            <h2 class="section-title reveal" data-reveal>How it works</h2>
+            <p class="section-subtitle reveal" data-reveal>
+              Built to reduce stress and increase clarity—so you can enjoy a fresh, peaceful space.
+            </p>
+
+            <div class="steps">
+              <div class="step reveal" data-reveal>
+                <div class="num">1</div>
+                <h3>You contact us</h3>
+                <p>Send a message with what you need, and we’ll guide you to the right approach.</p>
+              </div>
+              <div class="step reveal" data-reveal>
+                <div class="num">2</div>
+                <h3>We assess the mess</h3>
+                <p>We review the space and clarify priorities so we can work efficiently and respectfully.</p>
+              </div>
+              <div class="step reveal" data-reveal>
+                <div class="num">3</div>
+                <h3>We clean, sort, organize</h3>
+                <p>Clutter gets removed, items get categorized, and your space gets reset.</p>
+              </div>
+              <div class="step reveal" data-reveal>
+                <div class="num">4</div>
+                <h3>You enjoy the calm</h3>
+                <p>You walk into a fresh, organized space that’s easy to maintain.</p>
+              </div>
+            </div>
+
+            <div style="height:18px"></div>
+
+            <div class="split">
+              <div class="card reveal" data-reveal>
+                <h3>We’ll make it feel effortless</h3>
+                <p>
+                  Our team handles the hard parts: sorting, cleaning, and reorganization. You focus on what matters to you.
+                </p>
+              </div>
+              <div class="card reveal" data-reveal style="display:flex;align-items:center;justify-content:center;">
+                <a class="btn btn-light" href="contact.html#form">Book a Cleanup</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-small">
+            <strong style="color:rgba(234,240,243,.92);">Sortify</strong>
+            <div>Decluttering, junk removal, and space organization for homes and offices.</div>
+            <div style="margin-top:10px;">Service areas: Replace with your city/region.</div>
+          </div>
+          <div class="footer-links" aria-label="Footer links">
+            <a href="services.html">Services</a>
+            <a href="how-it-works.html">How It Works</a>
+            <a href="contact.html">Contact</a>
+            <a href="contact.html#form">Book a Cleanup</a>
+          </div>
+        </div>
+        <div class="helper" style="margin-top:16px;">&copy; <span id="year"></span> Sortify. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+

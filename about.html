@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Sortify brings peace through organized spaces—decluttering with care, for homes and offices." />
+    <title>About Sortify</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script defer src="assets/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header>
+      <div class="container">
+        <div class="nav">
+          <a class="brand" href="index.html" aria-label="Sortify home">
+            <div class="brand-logo">
+              <img src="assets/logo-transparent.png" alt="Sortify logo" />
+            </div>
+            <div>
+              <div class="brand-title">Sortify</div>
+              <div class="brand-tagline">You make the mess, we do the rest.</div>
+            </div>
+          </a>
+          <nav class="nav-links" aria-label="Primary navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html" aria-current="page">About</a>
+            <a href="services.html">Services</a>
+            <a href="how-it-works.html">How it works</a>
+            <a href="contact.html">Contact</a>
+            <a class="btn btn-primary" href="contact.html#form" data-cta="book">Book a Cleanup</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="page">
+      <main id="main">
+        <section class="hero" style="padding-bottom:18px;">
+          <div class="container">
+            <div class="split">
+              <div>
+                <div class="eyebrow reveal" data-reveal>Our mission</div>
+                <h1 class="reveal" data-reveal style="margin-top:14px;">Bringing peace through organized spaces</h1>
+                <p class="reveal" data-reveal>
+                  Clutter isn’t just physical. It can create mental noise, raise stress, and make productivity feel
+                  impossible. Sortify helps you move from overwhelmed to organized—without judgment.
+                </p>
+                <div class="hero-actions reveal" data-reveal>
+                  <a class="btn btn-primary" href="contact.html#form">Book a Cleanup</a>
+                  <a class="btn btn-ghost" href="how-it-works.html">See How It Works</a>
+                </div>
+              </div>
+              <div class="hero-card reveal" data-reveal>
+                <div class="hero-visual">
+                  <video
+                    class="hero-video"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    poster="assets/logo-transparent.png"
+                    aria-label="Cleanup transformation video"
+                  >
+                    <source src="assets/cleanup.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section panel-light">
+          <div class="container">
+            <div class="panel-logo-wrap" aria-hidden="true">
+              <img class="panel-logo" src="assets/logo-transparent.png" alt="" />
+            </div>
+            <h2 class="section-title reveal" data-reveal>Why decluttering changes everything</h2>
+            <p class="section-subtitle reveal" data-reveal>
+              When mess accumulates, it becomes harder to think clearly. Our calm, structured process helps you
+              regain control—one decision at a time.
+            </p>
+
+            <div class="grid-3">
+              <div class="card reveal" data-reveal>
+                <h3>Less stress</h3>
+                <p>Clear spaces reduce the constant “unfinished” feeling that keeps your mind tense.</p>
+              </div>
+              <div class="card reveal" data-reveal>
+                <h3>Better focus</h3>
+                <p>When items have a place, you spend less time searching and more time living.</p>
+              </div>
+              <div class="card reveal" data-reveal>
+                <h3>More productivity</h3>
+                <p>Organized environments support better habits at home and work.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="split">
+              <div class="card reveal" data-reveal>
+                <h3>Respect-first approach</h3>
+                <p>
+                  We treat your space with care and communicate clearly. You’ll always know what’s happening and why.
+                </p>
+              </div>
+              <div class="card reveal" data-reveal>
+                <h3>Systems that stay organized</h3>
+                <p>
+                  Beyond clearing the mess, we help you set up simple organization so your space stays calm long after we
+                  leave.
+                </p>
+              </div>
+            </div>
+
+            <div style="height:18px"></div>
+
+            <div class="card reveal" data-reveal>
+              <h3>Want to feel peace when you walk in?</h3>
+              <p>
+                Tell us what feels overwhelming. We’ll handle the cleanup, sorting, and reorganization—so you can enjoy a fresh, peaceful space.
+              </p>
+              <div class="hero-actions" style="margin-top:14px;">
+                <a class="btn btn-primary" href="contact.html#form">Book a Cleanup</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-small">
+            <strong style="color:rgba(234,240,243,.92);">Sortify</strong>
+            <div>Decluttering, junk removal, and space organization for homes and offices.</div>
+            <div style="margin-top:10px;">Service areas: Replace with your city/region.</div>
+          </div>
+          <div class="footer-links" aria-label="Footer links">
+            <a href="services.html">Services</a>
+            <a href="how-it-works.html">How It Works</a>
+            <a href="contact.html">Contact</a>
+            <a href="contact.html#form">Book a Cleanup</a>
+          </div>
+        </div>
+        <div class="helper" style="margin-top:16px;">&copy; <span id="year"></span> Sortify. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
